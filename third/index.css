@@ -1,0 +1,83 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    background: rgb(216, 214, 214);
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+header{
+    background: rgb(0, 162, 255);
+    width: 6%;
+    height: 10%;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.write{
+    background: white;
+    color: black;
+    height: 10%;
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 25px;
+}
+.colorblock1, .colorblock2, colorblock3, .colorblock4{
+    height: 19%;
+    width: 100%;
+}
+.colorblock1{
+    background: rgb(0, 162, 255);
+}
+.colorblock2{
+    background: rgb(0, 255, 242);
+}
+.colorblock3{
+    background: rgb(0, 255, 157);
+    height:16%;
+    width:100%;
+}
+.colorblock4{
+    background: rgb(208, 255, 0);
+}
