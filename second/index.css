@@ -1,0 +1,108 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header{
+	border: 5px black solid;
+	height: 300px;
+	margin: 15px;
+}
+
+.purple{
+	height: 200px;
+	background: rgb(140, 68, 161);
+	width: 60px;
+	margin-left: 1em;
+	margin-top: 4.5em;
+	display: inline-block;
+}
+
+.green{
+	background: rgb(1, 148, 1);
+	height: 260px;
+	width: 40%;
+	margin-left: 60px;
+	display: inline-block;
+}
+
+.circle{
+	display: inline-block;
+	background: lightskyblue;
+	height: 260px;
+	width: 250px;
+	margin-left: 60px;
+	border-radius: 250px;
+}
+
+main{
+	border: 5px black dotted;
+	height: 300px;
+	margin: 15px;
+}
+
+.box1{
+	height: 200px;
+	width: 85%;
+	background: beige;
+	margin: 40px auto;
+	box-shadow: 10px 10px 4px rgb(73, 73, 73);
+}
+
+footer{
+	border: 1px rgb(212, 210, 210) solid;
+	height: 300px;
+	width: 40%;
+	margin: 10px auto;
+	box-shadow: 3px 3px 4px rgb(212, 210, 210);
+	color: darkblue;
+	font-size: 40px;
+	letter-spacing: 0.3em;
+	padding: 110px;
+	text-align: center;
+}
